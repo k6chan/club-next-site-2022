@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       GITHUB_ACTIONS: "true"
+      USE_SUB_DIRECTORY: "true"
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
