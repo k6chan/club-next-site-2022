@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     <>
       <Navbar bg="light" expand="lg" sticky="top">
         <Container>
-          <Link href="/" passHref><Navbar.Brand className="display-text">ANIME &amp; MANGA ENTHUSIASTS</Navbar.Brand></Link>
+          <Link href="/" passHref><Navbar.Brand className="title-font">ANIME &amp; MANGA ENTHUSIASTS</Navbar.Brand></Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav navbarScroll className="ms-auto">

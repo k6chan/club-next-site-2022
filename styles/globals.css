@@ -1,11 +1,19 @@
+@font-face {
+  font-family: "OspDin";
+  src: url("../public/fonts/OSP-DIN.ttf");
+}
+@font-face {
+  font-family: "HattoriHanzo";
+  src: url("../public/fonts/Hattori_Hanzo.otf");
+}
+@font-face {
+  font-family: "HattoriHanzo";
+  src: url("../public/fonts/Hattori_Hanzo_Italic.otf");
+  font-style: italic;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: Source Sans Pro, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
-  background-color: #0D0B16;
-  color: #FFFFFF;
   font-size: 14pt;
 }
 
@@ -22,99 +30,7 @@ body {
   align-items: center;
 }
 
-.jumbo-display {
-  background-color: #0D0B16;
-}
-
-.landing {
-  background-size: cover;
-  background-position: center;
-  height: 100%;
-}
-
-.section {
-  background-color: #2C2F3F;
-}
-
-.video-player {
-  max-height: 315px;
-  max-width: 560px;
-}
-
-.map {
-  max-height: 450px;
-  max-width: 600px;
-}
-
-.carousel {
-  max-width: 500px;
-}
-
-.border-stroke {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #313D44;
-}
-
-.display-text {
-  font-size: 30pt;
-  font-weight: 900;
-}
-
-.title-text {
-  font-size: 20pt;
-  font-weight: 600;
-}
-
-.caption-text {
-  font-size: 12pt;
-  font-weight: 300;
-}
-
-.highlight {
-  color: #69F1F7
-}
-
-.button-color {
-  color: #CA2721
-}
-
-.glow-text {
-  text-shadow: 0 0 10px #0D0B16;
-}
-
-/* .navbar-color {
-  background-color: #2C2F3F;
-}
-
-.navbar-custom .nav-item.active,
-.navbar-custom .nav-item:focus,
-.navbar-custom .nav-item:hover {
-  background-color: #CA2721;
-}
-
-.navbar-custom .dropdown-menu {
-  background-color: #CA2721;
-}
-
-.navbar-custom .dropdown-item:hover {
-  background-color: #ac221d;
-} */
-
-.dropdown-menu {
-  max-height: 80vh;
-  overflow-y: auto;
-}
-.sheet-schedule {
-  height: 80vh;
-}
-
-.sheet-constraint {
-  max-height: 685px;
-  max-width: 1440px;
-}
-
-.prize-image {
-  width: 100%;
-  height: 100%;
+.title-font {
+  font-family: OspDin, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
 }
