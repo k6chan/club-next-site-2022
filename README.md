@@ -27,17 +27,17 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-# animefest.ucsd.moe
+# ucsd.moe
 
 ## Pushing code
 
-The default branch is ```main```; when your changes are ready you can update the ````production```` branch (what actually goes to [animefest.ucsd.moe](https://animefest.ucsd.moe)) with the command `git push origin main:production`. The site will be successfully updated if the build completes in the GitHub Actions tab.
+Before pushing code, run `git pull` to avoid merge conflicts.
 
-Before pushing code, run `git pull` to avoid merge conflicts. 
+The default branch is ```main```; when your changes are ready you can update the ````production```` branch (what actually goes to [ucsd.moe](https://ucsd.moe)) with the command `git push origin main:production`. The site will be successfully updated if the build completes in the GitHub Actions tab.
 
 ## BasePath
 
-During development, the project was served on the subdomain [ucsdanimeclub.github.io/animefest-next-site/](https://ucsdanimeclub.github.io/animefest-next-site/). By default Next.js is not meant to be deployed on the sub-path of a domain, so `next.config.js` is edited to resolve this issue by applying path prefixes when necessary. The `<MyImage>` tag is also created to resolve the issue when loading image sources, so please use it instead of `<img>` or `<Image>` tags.
+During development, the project was served on the subdomain [ucsdanimeclub.github.io/club-next-site/](https://ucsdanimeclub.github.io/club-next-site/). By default Next.js is not meant to be deployed on the sub-path of a domain, so `next.config.js` is edited to resolve this issue by applying path prefixes when necessary. The `<MyImage>` tag is also created to resolve the issue when loading image sources, so please use it instead of `<img>` or `<Image>` tags.
 
 ## Libraries
 
@@ -61,7 +61,7 @@ This project also contains the HTML `<head>` tag in this file.
 
 #### index.js
 
-This page is the default page that loads when visiting [animefest.ucsd.moe](https://animefest.ucsd.moe).
+This page is the default page that loads when visiting [ucsd.moe](https://ucsd.moe).
 
 ### Components
 
@@ -69,79 +69,13 @@ This page is the default page that loads when visiting [animefest.ucsd.moe](http
 
 This component is a substitute for the `<img>` or `<Image>` tag. It is a workaround to the basePath issue that Next.js has with GitHub Pages, so please use this component instead of the regular image tags.
 
-#### eventtable.js
-
-This component reads data in the format of `data/panels.json` and returns a table with columns for each entry's start-end times and topic.
-
-#### programscarousel.js
-
-This component reads data in the format of `data/programs.json` and returns a Carousel.
-
 #### navigation/layout.js
 
 This component contains the Navbar as well as footer tags. It is called in `pages/_app.js`.
 
-#### navigation/sponsor.js
-
-This component reads `data/sponsors.json` and formats it into a grid. This component is called in the `layout.js` footer, so that they are displayed at the bottom of every page.
-
-Sponsor logos are placed on a white background for visibility.
-
-#### index/background.js
-
-This component is only used in `pages/index.js`. It is used to place the Animefest landing image within the first Container in the page.
-
-#### index/social.js
-
-This component is only used in `pages/index.js`. This component reads `data/socials.json` and returns a horizontal ListGroup of the social media icons.
-
-#### exhibitor/exhibitortable.js
-
-This component is only used in `pages/exhibitor.js` It can read `data/artists.json` or `data/vendors.json` and returns a Table.
-
-#### prizes/prizedisplay.js
-
-This component receives data in the format of `data/prizes.json` and a list of relevant locations to display. It returns a tab-separated list (flexbox) of prize images using the `prizes/prizeimages.js` component.
-
-#### prizes/prizeimages.js
-
-This component receives a list of prize image sources and returns a list (flexbox) of prize images. Use this instead of `prizes/prizedisplay.js` if you don't need tabs.
-
 ### Data
 
 Data is read from JSON files so we can change content without changing structure. Components like carousels and lists benefit from this practice as entries can be numerous or change with each year.
-
-#### programs.json
-
-This JSON file contains the name, image source, and descriptions of Animefest programs. Each program should correspond to each page (except `pages/index.js`).
-
-#### socials.json
-
-This JSON file contains the name, social media icon source, and URL for each social media page we want to share.
-
-Please download icons from the social media's official Branding page.
-
-#### sponsors.json
-
-This JSON file contains the name, logo image source, and URL for each sponsor we have for the year.
-
-Please ask your sponsor to provide the logo image, or download it from the sponsor's official Branding or Media/Press Kit page.
-
-#### panels.json
-
-This JSON file contains the start and end time, panel topic, panelist display name, and description for each panel, by the room that they are hosted in.
-
-#### prizes.json
-
-This JSON file contains all of the prizes given out at Animefest. Each prize has an image source and the prize pool it belongs to.
-
-#### artists.json
-
-This JSON file contains the display names and links of each artist we have for the year.
-
-#### vendors.json
-
-This JSON file contains the organization names and links of each vendor we have for the year.
 
 ### Images
 
