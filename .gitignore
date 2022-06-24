@@ -34,7 +34,7 @@ yarn-error.log*
 
 # IntelliJ project files
 .idea/.gitignore
-.idea/animefest-next-site.iml
+.idea/club-next-site.iml
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
