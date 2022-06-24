@@ -10,7 +10,7 @@ export default function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Anime & Manga Enthusiasts</title>
+        <title>Anime &amp; Manga Enthusiasts</title>
         <meta name="description" content="Anime Club at UC San Diego" />
         <link rel="icon" href={`${router.basePath}/favicon.ico`}/>
       </Head>
