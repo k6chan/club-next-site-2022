@@ -24,7 +24,7 @@ export default function Layout({ children }) {
       <main>{children}</main>
       <footer className="footer">
         <Container className="text-center">
-          <p className="caption-text">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. Website design by Kaitlyn Chan.</p>
+          <p className="caption-text">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. Website design by Kaitlyn Chan. All assets belong to their respective owners.</p>
         </Container>
       </footer>
     </>
