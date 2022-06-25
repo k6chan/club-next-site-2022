@@ -1,0 +1,19 @@
+{
+  "banners": [
+    {
+      "title": "Anime Club at UC San Diego",
+      "description": "Meetings every Monday, and other social events throughout the quarter! We also have a very active Discord server!",
+      "image": "images/carousel_images/mascots_banner.jpg"
+    },
+    {
+      "title": "Animefest 2022",
+      "description": "Animefest 2022 was our biggest convention yet! Look out for information on our next Animefest!",
+      "image": "images/carousel_images/past_animefest_banner.jpg"
+    },
+    {
+      "title": "Animefest 2023",
+      "description": "Date TBA! Details will be updated on our new website! Click here to go to the website!",
+      "image": "images/carousel_images/blank_banner.jpg"
+    }
+  ]
+}

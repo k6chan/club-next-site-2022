@@ -1,12 +1,11 @@
-import { Container } from 'react-bootstrap'
+import BannerCarousel from "../components/bannercarousel"
+import Banners from "../data/banners.json"
 
 
 export default function Home() {
     return (
         <>
-            <Container fluid>
-                Hello world!
-            </Container>
+            <BannerCarousel data={Banners["banners"]}/>
         </>
     )
 }
