@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Container, Nav, Navbar, NavDropdown, Row, Col } from 'react-bootstrap'
+import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
 import MyImage from "../myimage"
 
 
