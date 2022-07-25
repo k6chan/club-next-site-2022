@@ -9,7 +9,7 @@ export default function Layout({ children }) {
       <Navbar bg="dark" expand="lg" sticky="top" variant="dark">
         <Container className="title-font text-uppercase">
             <Navbar.Brand href="/">
-                <MyImage alt="AME logo" src="../images/AME_navbar_logo.svg" className="d-inline-block w-50"/>
+                <MyImage alt="AME logo" src="images/AME_navbar_logo.svg" className="w-50"/>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav">

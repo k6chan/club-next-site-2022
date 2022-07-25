@@ -1,17 +1,3 @@
-@font-face {
-  font-family: "OspDin";
-  src: url("../public/fonts/OSP-DIN.ttf");
-}
-@font-face {
-  font-family: "HattoriHanzo";
-  src: url("../public/fonts/Hattori_Hanzo.otf");
-}
-@font-face {
-  font-family: "HattoriHanzo";
-  src: url("../public/fonts/Hattori_Hanzo_Italic.otf");
-  font-style: italic;
-}
-
 html,
 body {
   font-size: 14pt;
@@ -31,7 +17,7 @@ body {
 }
 
 .title-font {
-  font-family: OspDin, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Barlow, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
 }
 
