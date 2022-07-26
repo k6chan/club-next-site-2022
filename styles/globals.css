@@ -28,3 +28,7 @@ body {
 .caption-size {
   font-size: 12pt;
 }
+
+.glow-text {
+  text-shadow: 0 0 2px #5a5a5a;
+}
