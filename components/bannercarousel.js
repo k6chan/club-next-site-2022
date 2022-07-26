@@ -20,7 +20,7 @@ export default function BannerCarousel({ data, ...otherProps }) {
       {data.map((banner, index) => (
           <Carousel.Item key={index}>
             <MyImage src={banner["image"]} alt={banner["title"]}/>
-            <Carousel.Caption className="title-font text-uppercase">
+            <Carousel.Caption className="title-font text-uppercase glow-text">
               <h2>{banner["title"]}</h2>
               <p>{banner["description"]}</p>
               <CaptionLink data={banner}/>
