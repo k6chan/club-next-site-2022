@@ -21,6 +21,10 @@ body {
   Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
 }
 
-.caption-text {
+.title-size {
+  font-size: 24pt;
+}
+
+.caption-size {
   font-size: 12pt;
 }
