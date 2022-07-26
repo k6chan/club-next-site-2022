@@ -34,7 +34,7 @@ export default function Home() {
                 <Row className="align-items-center mb-5">
                     <Col md={6}>
                         <iframe src="https://discord.com/widget?id=247566229383020546&theme=dark" width="350"
-                                height="500" allowTransparency="true"
+                                height="500"
                                 sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
                     </Col>
                     <Col md={6}>
