@@ -12,8 +12,12 @@
     },
     {
       "title": "Animefest 2023",
-      "description": "Date TBA! Details will be updated on our new website! Click here to go to the website!",
-      "image": "images/carousel_images/blank_banner.jpg"
+      "description": "Date TBA! Details will be updated on our new website!",
+      "image": "images/carousel_images/blank_banner.jpg",
+      "link": {
+        "name": "Click here to go to the website!",
+        "address": "https://animefest.ucsd.moe/"
+      }
     }
   ]
 }
