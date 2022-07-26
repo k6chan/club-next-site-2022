@@ -7,10 +7,10 @@ import {Row, Col, Container, Ratio, Button} from "react-bootstrap"
 export default function Home() {
     return (
         <>
-            <BannerCarousel data={Banners["banners"]} className="mb-5"/>
+            <BannerCarousel data={Banners["banners"]} className="mb-4"/>
             <div className="p-4">
-                <Container className="border-bottom border-light mb-5">
-                    <Row className="align-items-center mb-5">
+                <Container className="border-bottom border-light mb-4">
+                    <Row className="align-items-center mb-4">
                         <Col md={5} className="p-3">
                             <p className="title-size title-font text-uppercase border-bottom">Future Events!</p>
                             <p className="mb-4">We hold GBMs every Monday evening and other events throughout the
@@ -33,8 +33,8 @@ export default function Home() {
                         </Col>
                     </Row>
                 </Container>
-                <Container className="border-bottom border-light mb-5">
-                    <Row className="align-items-center mb-5">
+                <Container className="border-bottom border-light mb-4">
+                    <Row className="align-items-center mb-4">
                         <Col md={6} className="p-3">
                             <Ratio aspectRatio={350 / 500}>
                                 <iframe src="https://discord.com/widget?id=247566229383020546&theme=dark" width="350"
@@ -59,7 +59,7 @@ export default function Home() {
                     </Row>
                 </Container>
                 <Container>
-                    <Row className="align-items-center mb-5">
+                    <Row className="align-items-center mb-4">
                         <Col md={7} className="p-3">
                             <p className="title-size title-font text-uppercase border-bottom">What Do We Do?</p>
                             <p>We host anime showings and other activities every Monday evening. We also hang out and
