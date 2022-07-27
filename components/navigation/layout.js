@@ -1,6 +1,8 @@
 import Link from 'next/link'
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import MyImage from "../myimage"
+import Social from "./social"
+import Socials from "../../data/socials.json"
 
 
 export default function Layout({children}) {
@@ -25,10 +27,11 @@ export default function Layout({children}) {
                 </Container>
             </Navbar>
             <main>{children}</main>
-            <footer className="footer">
+            <footer className="footer bg-dark">
                 <Container className="text-center">
                     <p className="caption-size">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. All assets
                         belong to their respective owners.</p>
+                    <Social data={Socials}/>
                 </Container>
             </footer>
         </>

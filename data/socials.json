@@ -1,0 +1,29 @@
+{
+  "socials": [
+    {
+      "name": "Discord",
+      "icon": "images/social_media/discord.svg",
+      "url": "https://discord.gg/Qkz9ZKv"
+    },
+    {
+      "name": "Instagram",
+      "icon": "images/social_media/instagram.png",
+      "url": "https://www.instagram.com/ucsdanimeclub/"
+    },
+    {
+      "name": "Facebook",
+      "icon": "images/social_media/facebook.png",
+      "url": "https://www.facebook.com/groups/ucsdanimeclub"
+    },
+    {
+      "name": "Twitter",
+      "icon": "images/social_media/twitter.svg",
+      "url": "https://twitter.com/ucsdanimeclub"
+    },
+    {
+      "name": "YouTube",
+      "icon": "images/social_media/youtube.png",
+      "url": "https://www.youtube.com/channel/UC5GqPKHSGDl18dKxpwn0juw"
+    }
+  ]
+}
