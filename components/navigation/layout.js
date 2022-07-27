@@ -28,7 +28,7 @@ export default function Layout({children}) {
             </Navbar>
             <main>{children}</main>
             <footer className="footer bg-dark">
-                <Container className="text-center">
+                <Container className="text-center text-light">
                     <p className="caption-size">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. All assets
                         belong to their respective owners.</p>
                     <Social data={Socials}/>
