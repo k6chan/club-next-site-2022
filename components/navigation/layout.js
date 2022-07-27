@@ -21,7 +21,7 @@ export default function Layout({children}) {
                                 <Link href='/' passHref><NavDropdown.Item>History</NavDropdown.Item></Link>
                                 <Link href='/' passHref><NavDropdown.Item>Officers</NavDropdown.Item></Link>
                             </NavDropdown>
-                            <Link href='/' passHref><Nav.Link>Join Us</Nav.Link></Link>
+                            <Link href='/' passHref><Nav.Link>Gallery</Nav.Link></Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
