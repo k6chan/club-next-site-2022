@@ -17,12 +17,17 @@ body {
 }
 
 .title-font {
-  font-family: Barlow, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: Barlow, Source Sans Pro, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
+}
+
+.title-font-condensed {
+  font-family: Barlow Condensed, Barlow, Source Sans Pro, Helvetica Neue, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
 }
 
 .title-size {
-  font-size: 24pt;
+  font-size: 32pt;
 }
 
 .caption-size {

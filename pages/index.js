@@ -12,7 +12,7 @@ export default function Home() {
                 <div className="border-bottom border-light mb-4">
                     <Row className="align-items-center mb-4">
                         <Col md={5} className="py-2">
-                            <p className="title-size title-font text-uppercase border-bottom">Future Events!</p>
+                            <p className="title-size title-font-condensed text-uppercase border-bottom">Future Events!</p>
                             <p className="mb-4">We hold GBMs every Monday evening and other events throughout the
                                 quarter. Although we are
                                 currently preparing for Animefest, we still have plenty of other events happening this
@@ -43,7 +43,7 @@ export default function Home() {
                             </Ratio>
                         </Col>
                         <Col md={6} className="py-2">
-                            <p className="title-size title-font text-uppercase border-bottom">Who are we?</p>
+                            <p className="title-size title-font-condensed text-uppercase border-bottom">Who are we?</p>
                             <p className="mb-4">We&apos;re the anime club at UCSD :D We might seem mysterious at first,
                                 but stop by club
                                 sometime to
@@ -61,7 +61,7 @@ export default function Home() {
                 <div>
                     <Row className="align-items-center mb-4">
                         <Col md={7} className="py-2">
-                            <p className="title-size title-font text-uppercase border-bottom">What Do We Do?</p>
+                            <p className="title-size title-font-condensed text-uppercase border-bottom">What Do We Do?</p>
                             <p>We host anime showings and other activities every Monday evening. We also hang out and
                                 organize weekend socials like karaoke, club dinner, etc. Our largest event is our
                                 on-campus
