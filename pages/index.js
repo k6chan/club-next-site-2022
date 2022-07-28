@@ -2,6 +2,7 @@ import BannerCarousel from "../components/index/bannercarousel"
 import MyImage from "../components/myimage"
 import Banners from "../data/banners.json"
 import {Row, Col, Container, Ratio, Button} from "react-bootstrap"
+import Link from "next/link";
 
 
 export default function Home() {
@@ -52,8 +53,8 @@ export default function Home() {
                                 meetings or events. Feel free to hang out with us at any of the things that we host
                                 throughout the school year anytime.</p>
                             <div className="d-grid gap-2">
-                                <Button variant="secondary" size="lg">History</Button>
-                                <Button variant="secondary" size="lg">Current Officers</Button>
+                                <Link href="/history" passHref><Button variant="secondary" size="lg">History</Button></Link>
+                                <Link href="/officers" passHref><Button variant="secondary" size="lg">Current Officers</Button></Link>
                             </div>
                         </Col>
                     </Row>
