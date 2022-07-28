@@ -7,7 +7,7 @@ export default function History() {
     return (
         <>
             <Container fluid className="text-center p-0 mb-4" style={{"height": "25vh"}}>
-                <BackgroundImage src="images/mascots_banner.png" className="landing">
+                <BackgroundImage src="images/geisel_banner.jpg" className="landing">
                     <Row className="align-items-center h-100 g-0">
                         <Col>
                             <h1 className="text-uppercase title-font-condensed text-light display-size glow-text"><span
