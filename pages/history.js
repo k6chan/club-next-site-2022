@@ -1,6 +1,6 @@
 import BackgroundImage from "../components/index/backgroundimage"
 import {Row, Col, Container} from "react-bootstrap"
-import Link from "next/link";
+import Link from "next/link"
 
 
 export default function History() {
