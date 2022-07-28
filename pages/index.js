@@ -68,7 +68,7 @@ export default function Home() {
                                 con, Animefest, which takes place every Winter Quarter.</p>
                         </Col>
                         <Col xs={12} sm={12} md={5} className="py-2">
-                            <MyImage src="images/mascot_images/triton_sitting.png" alt="Triton sitting"
+                            <MyImage src="images/triton_sitting.png" alt="Triton sitting"
                                      className="w-100"></MyImage>
                         </Col>
                     </Row>
