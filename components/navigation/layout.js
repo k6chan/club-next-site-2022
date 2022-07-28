@@ -19,7 +19,7 @@ export default function Layout({children}) {
                             <Link href='/' passHref><Nav.Link>Events</Nav.Link></Link>
                             <NavDropdown title="ABOUT" id="basic-nav-dropdown">
                                 <Link href='/history' passHref><NavDropdown.Item>History</NavDropdown.Item></Link>
-                                <Link href='/' passHref><NavDropdown.Item>Officers</NavDropdown.Item></Link>
+                                <Link href='/officers' passHref><NavDropdown.Item>Officers</NavDropdown.Item></Link>
                             </NavDropdown>
                             <Link href='/gallery' passHref><Nav.Link>Gallery</Nav.Link></Link>
                         </Nav>
