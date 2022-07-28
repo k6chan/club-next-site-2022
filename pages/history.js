@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function History() {
     return (
-        <div className="vh-100">
+        <div className="min-vh-100">
             <Container fluid className="text-center p-0 mb-4" style={{"height": "25vh"}}>
                 <BackgroundImage src="images/geisel_banner.jpg" className="landing">
                     <Row className="align-items-center h-100 g-0">

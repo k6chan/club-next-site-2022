@@ -4,7 +4,7 @@ import {Row, Col, Container} from "react-bootstrap"
 
 export default function Gallery() {
     return (
-        <div className="vh-100">
+        <div className="min-vh-100">
             <Container fluid className="text-center p-0 mb-4" style={{"height": "25vh"}}>
                 <BackgroundImage src="images/mascots_banner.png" className="landing">
                     <Row className="align-items-center h-100 g-0">
