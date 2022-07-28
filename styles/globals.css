@@ -26,6 +26,10 @@ body {
   Ubuntu, Cantarell, Fira Sans, Droid Sans, sans-serif;
 }
 
+.display-size {
+  font-size: 52pt;
+}
+
 .title-size {
   font-size: 32pt;
 }
@@ -40,4 +44,10 @@ body {
 
 .highlight {
   color: #2f94d7;
+}
+
+.landing {
+  background-size: cover;
+  background-position: center;
+  height: 100%;
 }
