@@ -10,7 +10,7 @@ body {
 .footer {
   display: flex;
   flex: 1;
-  padding: 2rem 0;
+  padding: 1rem 0;
   border-top: 1px solid #eaeaea;
   justify-content: center;
   align-items: center;
@@ -36,4 +36,8 @@ body {
 
 .glow-text {
   text-shadow: 0 0 2px #5a5a5a;
+}
+
+.highlight {
+  color: #2f94d7;
 }

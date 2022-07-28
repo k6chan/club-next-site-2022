@@ -31,7 +31,8 @@ export default function Layout({children}) {
                 <Container className="text-center text-light">
                     <p className="caption-size">&copy; 2022 Anime &amp; Manga Enthusiasts at UC San Diego. All assets
                         belong to their respective owners.</p>
-                    <Social data={Socials}/>
+                    <Social data={Socials} className="mb-3"/>
+                    <p className="caption-size highlight text-uppercase mb-0"><Link href="#">Back to top</Link></p>
                 </Container>
             </footer>
         </>

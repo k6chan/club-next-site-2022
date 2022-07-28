@@ -1,6 +1,11 @@
 {
   "socials": [
     {
+      "name": "Email",
+      "icon": "images/social_media/email.png",
+      "url": "mailto:ucsdanimeclub@gmail.com"
+    },
+    {
       "name": "Discord",
       "icon": "images/social_media/discord.svg",
       "url": "https://discord.gg/Qkz9ZKv"
