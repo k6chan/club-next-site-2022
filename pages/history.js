@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function History() {
     return (
-        <>
+        <div className="vh-100">
             <Container fluid className="text-center p-0 mb-4" style={{"height": "25vh"}}>
                 <BackgroundImage src="images/geisel_banner.jpg" className="landing">
                     <Row className="align-items-center h-100 g-0">
@@ -34,6 +34,6 @@ export default function History() {
                         href="https://discord.gg/Qkz9ZKv">Discord</a> or <a
                         href="https://www.facebook.com/groups/ucsdanimeclub">Facebook group</a> for updates.</p>
             </Container>
-        </>
+        </div>
     )
 }
