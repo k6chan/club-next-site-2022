@@ -1,5 +1,6 @@
 import {Col, Container, Row} from "react-bootstrap"
-import BackgroundImage from "./index/backgroundimage"
+import BackgroundImage from "./backgroundimage";
+
 
 
 export default function PageHeader({ children, src, ...otherProps }) {

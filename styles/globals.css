@@ -55,3 +55,9 @@ body {
 .page-header {
   height: 25vh;
 }
+
+.image-gradient {
+  background-image: linear-gradient(to bottom right, rgb(245, 245, 245) 3%, white 10%);
+  position: relative;
+  bottom: 0;
+}

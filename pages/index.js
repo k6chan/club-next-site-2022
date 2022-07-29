@@ -1,4 +1,4 @@
-import BannerCarousel from "../components/index/bannercarousel"
+import BannerCarousel from "../components/bannercarousel"
 import MyImage from "../components/myimage"
 import Banners from "../data/banners.json"
 import {Row, Col, Container, Ratio, Button} from "react-bootstrap"

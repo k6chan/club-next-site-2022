@@ -1,5 +1,5 @@
 import { Carousel} from "react-bootstrap"
-import MyImage from "../myimage";
+import MyImage from "./myimage";
 
 
 export function CaptionLink(data) {
