@@ -26,9 +26,10 @@ export default function History() {
                     UCSD, co-sponsored the first Anime Expo.</p>
                 <p>Although anime distribution has increased in the United States, making it easier to purchase and
                     watch shows, Anime &amp; Manga Enthusiasts continues to host weekly anime showings as well as
-                    bi-weekly off-campus or on-campus social events. Some of our events include karaoke, club dinner socials, and Tea
-                    Party, which is an anime marathon and potluck. Our largest event of the year is Animefest, an on
-                    campus convention that includes gaming, performances, Artist Alley, panels, and more!</p>
+                    bi-weekly off-campus or on-campus social events. Some of our events include karaoke, club dinner
+                    socials, and Tea
+                    Party, which is an anime marathon and potluck. Our largest event of the year is Animefest, an
+                    on-campus convention that includes gaming, performances, Artist Alley, panels, and more!</p>
                 <p className="mb-4">For more information on our showings or other upcoming events, check out
                     our <Link href='/' passHref>&quot;events&quot; section on our website</Link>, or join our <a
                         href="https://discord.gg/Qkz9ZKv">Discord</a> or <a
