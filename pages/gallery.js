@@ -1,5 +1,5 @@
 import {Container} from "react-bootstrap"
-import PageHeader from "../components/pageheader";
+import PageHeader from "../components/pageheader"
 
 
 export default function Gallery() {
