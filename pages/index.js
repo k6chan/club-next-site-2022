@@ -20,7 +20,7 @@ export default function Home() {
                                 currently preparing for Animefest, we still have plenty of other events happening this
                                 quarter. Check our Discord or Facebook group for details!</p>
                             <div className="d-grid">
-                                <Button variant="outline-primary" size="lg"
+                                <Button variant="primary" size="lg"
                                         href="https://www.facebook.com/groups/ucsdanimeclub">View
                                     our upcoming events</Button>
                             </div>
@@ -54,9 +54,9 @@ export default function Home() {
                                 meetings or events. Feel free to hang out with us at any of the things that we host
                                 throughout the school year anytime.</p>
                             <div className="d-grid gap-2">
-                                <Link href="/history" passHref><Button variant="outline-primary"
+                                <Link href="/history" passHref><Button variant="primary"
                                                                        size="lg">History</Button></Link>
-                                <Link href="/officers" passHref><Button variant="outline-primary" size="lg">Current
+                                <Link href="/officers" passHref><Button variant="primary" size="lg">Current
                                     Officers</Button></Link>
                             </div>
                         </Col>
