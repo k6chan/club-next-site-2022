@@ -4,10 +4,10 @@ import BackgroundImage from "./backgroundimage";
 
 export default function PageHeader({ children, src, ...otherProps }) {
   let {className, ...otherPropsWithoutClassName} = otherProps
-  let classes = "text-center p-0 page-header"
+  let classes = "text-center p-0 header-height"
   return (
       <Container fluid className={classes + " " + className} {...otherPropsWithoutClassName}>
-        <BackgroundImage src={src} className="landing">
+        <BackgroundImage src={src} className="header-image">
           <Row className="align-items-center h-100 g-0">
             <Col>
               <h1 className="text-uppercase title-font-condensed text-light display-size glow-text"><span
