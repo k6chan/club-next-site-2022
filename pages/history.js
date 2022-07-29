@@ -1,21 +1,12 @@
-import BackgroundImage from "../components/index/backgroundimage"
-import {Row, Col, Container} from "react-bootstrap"
+import PageHeader from "../components/pageheader"
+import {Container} from "react-bootstrap"
 import Link from "next/link"
 
 
 export default function History() {
     return (
         <div className="min-vh-100">
-            <Container fluid className="text-center p-0 mb-4" style={{"height": "25vh"}}>
-                <BackgroundImage src="images/header_images/history_banner.jpg" className="landing">
-                    <Row className="align-items-center h-100 g-0">
-                        <Col>
-                            <h1 className="text-uppercase title-font-condensed text-light display-size glow-text"><span
-                                className="border-bottom border-light border-2"><b>History</b></span></h1>
-                        </Col>
-                    </Row>
-                </BackgroundImage>
-            </Container>
+            <PageHeader src="images/header_images/history_banner.jpg" className="mb-4">History</PageHeader>
             <Container>
                 <p>Prior to 2022, Anime &amp; Manga Enthusiasts was known as Cal Animage Beta.</p>
                 <p>&quot;Cal Animage&quot; is a loosely organized association of international anime clubs. The first

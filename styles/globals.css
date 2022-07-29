@@ -51,3 +51,7 @@ body {
   background-position: center;
   height: 100%;
 }
+
+.page-header {
+  height: 25vh;
+}
