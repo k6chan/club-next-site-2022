@@ -2,7 +2,6 @@ import {Col, Container, Row} from "react-bootstrap"
 import BackgroundImage from "./backgroundimage";
 
 
-
 export default function PageHeader({ children, src, ...otherProps }) {
   let {className, ...otherPropsWithoutClassName} = otherProps
   let classes = "text-center p-0 page-header"
