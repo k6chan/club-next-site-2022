@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Home() {
     return (
         <>
-            <BannerCarousel data={Banners["banners"]} className="mb-4 text-center"/>
+            <BannerCarousel banners={Banners["banners"]} className="mb-4 text-center"/>
             <Container>
                 <div className="border-bottom border-light mb-4">
                     <Row className="align-items-center mb-4">
