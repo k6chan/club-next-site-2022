@@ -11,7 +11,7 @@ export default function History() {
                     <Row className="align-items-center h-100 g-0">
                         <Col>
                             <h1 className="text-uppercase title-font-condensed text-light display-size glow-text"><span
-                                className="border-bottom border-light"><b>History</b></span></h1>
+                                className="border-bottom border-light border-2"><b>History</b></span></h1>
                         </Col>
                     </Row>
                 </BackgroundImage>
