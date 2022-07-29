@@ -55,3 +55,7 @@ body {
 .header-height {
   height: 25vh;
 }
+
+.header-filter {
+  backdrop-filter: contrast(50%);
+}
