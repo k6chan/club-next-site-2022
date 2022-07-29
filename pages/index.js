@@ -13,13 +13,14 @@ export default function Home() {
                 <div className="border-bottom border-light mb-4">
                     <Row className="align-items-center mb-4">
                         <Col xs={12} sm={12} md={5} className="py-2">
-                            <p className="title-size title-font-condensed text-uppercase border-bottom">Future Events!</p>
+                            <p className="title-size title-font-condensed text-uppercase border-bottom">Future
+                                Events!</p>
                             <p className="mb-4">We hold GBMs every Monday evening and other events throughout the
                                 quarter. Although we are
                                 currently preparing for Animefest, we still have plenty of other events happening this
                                 quarter. Check our Discord or Facebook group for details!</p>
                             <div className="d-grid">
-                                <Button variant="secondary" size="lg"
+                                <Button variant="outline-primary" size="lg"
                                         href="https://www.facebook.com/groups/ucsdanimeclub">View
                                     our upcoming events</Button>
                             </div>
@@ -53,8 +54,10 @@ export default function Home() {
                                 meetings or events. Feel free to hang out with us at any of the things that we host
                                 throughout the school year anytime.</p>
                             <div className="d-grid gap-2">
-                                <Link href="/history" passHref><Button variant="secondary" size="lg">History</Button></Link>
-                                <Link href="/officers" passHref><Button variant="secondary" size="lg">Current Officers</Button></Link>
+                                <Link href="/history" passHref><Button variant="outline-primary"
+                                                                       size="lg">History</Button></Link>
+                                <Link href="/officers" passHref><Button variant="outline-primary" size="lg">Current
+                                    Officers</Button></Link>
                             </div>
                         </Col>
                     </Row>
@@ -62,7 +65,8 @@ export default function Home() {
                 <div>
                     <Row className="align-items-center mb-4">
                         <Col xs={12} sm={12} md={7} className="py-2">
-                            <p className="title-size title-font-condensed text-uppercase border-bottom">What Do We Do?</p>
+                            <p className="title-size title-font-condensed text-uppercase border-bottom">What Do We
+                                Do?</p>
                             <p>We host anime showings and other activities every Monday evening. We also hang out and
                                 organize weekend socials like karaoke, club dinner, etc. Our largest event is our
                                 on-campus
