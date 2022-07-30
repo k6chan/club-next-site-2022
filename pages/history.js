@@ -7,7 +7,7 @@ export default function History() {
     return (
         <div className="min-vh-100">
             <PageHeader src="images/header_images/history_banner.jpg" className="mb-4">History</PageHeader>
-            <Container>
+            <Container className="mb-4">
                 <p>Prior to 2022, Anime &amp; Manga Enthusiasts was known as Cal Animage Beta.</p>
                 <p>&quot;Cal Animage&quot; is a loosely organized association of international anime clubs. The first
                     chapter, Cal
@@ -21,7 +21,7 @@ export default function History() {
                     socials, and Tea
                     Party, which is an anime marathon and potluck. Our largest event of the year is Animefest, an
                     on-campus convention that includes gaming, performances, Artist Alley, panels, and more!</p>
-                <p className="mb-4">For more information on our showings or other upcoming events, check out
+                <p>For more information on our showings or other upcoming events, check out
                     our <Link href='/' passHref>&quot;events&quot; section on our website</Link>, or join our <a
                         href="https://discord.gg/Qkz9ZKv">Discord</a> or <a
                         href="https://www.facebook.com/groups/ucsdanimeclub">Facebook group</a> for updates.</p>

@@ -9,7 +9,7 @@ export default function Home() {
     return (
         <>
             <BannerCarousel banners={Banners["banners"]} className="mb-4 text-center"/>
-            <Container>
+            <Container className="mb-4">
                 <div className="border-bottom border-light mb-4">
                     <Row className="align-items-center mb-4">
                         <Col xs={12} sm={12} md={5} className="py-2">
@@ -63,7 +63,7 @@ export default function Home() {
                     </Row>
                 </div>
                 <div>
-                    <Row className="align-items-center mb-4">
+                    <Row className="align-items-center">
                         <Col xs={12} sm={12} md={7} className="py-2">
                             <p className="title-size title-font-condensed text-uppercase border-bottom">What Do We
                                 Do?</p>
