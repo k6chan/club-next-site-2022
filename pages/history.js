@@ -22,7 +22,7 @@ export default function History() {
                     Party, which is an anime marathon and potluck. Our largest event of the year is Animefest, an
                     on-campus convention that includes gaming, performances, Artist Alley, panels, and more!</p>
                 <p>For more information on our showings or other upcoming events, check out
-                    our <Link href='/' passHref>&quot;events&quot; section on our website</Link>, or join our <a
+                    our <Link href='/'>&quot;events&quot; section on our website</Link>, or join our <a
                         href="https://discord.gg/Qkz9ZKv">Discord</a> or <a
                         href="https://www.facebook.com/groups/ucsdanimeclub">Facebook group</a> for updates.</p>
             </Container>
