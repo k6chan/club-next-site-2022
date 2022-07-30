@@ -59,3 +59,8 @@ body {
 .header-filter {
   backdrop-filter: contrast(50%);
 }
+
+.officer-preview {
+  /*object-fit: contain;*/
+  cursor: pointer;
+}

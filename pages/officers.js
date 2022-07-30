@@ -2,7 +2,12 @@ import {Col, Container, Row} from "react-bootstrap"
 import PageHeader from "../components/pageheader"
 import MyImage from "../components/myimage"
 import OfficerData from "../data/officers.json"
+import Link from "next/link"
 
+
+function encodeOfficer(name) {
+    return encodeURIComponent(name)
+}
 
 function ContactDisplay({contact}) {
     if (contact["url"]) {
@@ -18,7 +23,7 @@ function ContactDisplay({contact}) {
 
 function OfficerDisplay({officer}) {
     return (
-        <Row className="align-items-top" id={officer["name"]}>
+        <Row className="align-items-top" id={encodeOfficer(officer["name"])}>
             <Col xs={12} sm={12} md={7} className="py-2">
                 <p className="title-size title-font-condensed text-uppercase border-bottom">{officer["name"]}</p>
                 {officer["description"].map((paragraph, index) => (
@@ -41,16 +46,27 @@ function OfficerDisplay({officer}) {
 export default function Officers() {
     // sort officers by name
     const officers_sorted = OfficerData["officers"].sort((o1, o2) => o1["name"].localeCompare(o2["name"]))
+
     return (
         <>
-        <PageHeader src="images/header_images/officers_banner.png" className="mb-4">Officers</PageHeader>
-        <Container className="mb-4">
-            <div className="d-grid gap-5">
-            {officers_sorted.map((officer, index) => (
-                <OfficerDisplay officer={officer} key={index}/>
-            ))}
-            </div>
-        </Container>
+            <PageHeader src="images/header_images/officers_banner.png" className="mb-4">Officers</PageHeader>
+            <Container className="mb-4">
+                <div className="border-bottom border-light mb-4">
+                    <div className="d-inline-flex flex-wrap justify-content-center align-items-start mb-4">
+                        {officers_sorted.map((officer, index) => (
+                            <Link key={index} href={`#${encodeOfficer(officer["name"])}`} passHref>
+                                <MyImage src={officer["image"]}
+                                         className="col-6 col-sm-4 col-md-3 col-lg-2 p-2 officer-preview"/>
+                            </Link>
+                        ))}
+                    </div>
+                </div>
+                <div className="d-grid gap-5">
+                    {officers_sorted.map((officer, index) => (
+                        <OfficerDisplay officer={officer} key={index}/>
+                    ))}
+                </div>
+            </Container>
         </>
     )
 }
