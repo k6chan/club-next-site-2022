@@ -1,0 +1,144 @@
+{
+  "officers": [
+    {
+      "image": "images/officer_images/pikapowera.png",
+      "name": "Ann Chwu",
+      "description": [
+        "Hello, I’m Ann, but I also go by Pika! I’m a cognitive science major from ERC. I don’t have much preference when it comes to anime genres, so if you ever have a recommendation I’ll be glad to hear it. I also like to draw in my free time. I hope you have a fun experience with CAB!"
+      ],
+      "contact": [
+        {
+          "title": "Discord",
+          "handle": "Pikapowera#3067"
+        }
+      ]
+    },
+    {
+      "image": "images/officer_images/chibibrain.jpg",
+      "name": "Brian Gao",
+      "description": [
+        "Hiya, I'm Brian, and I'm a general bio major at Seventh College. I'm a massive JoJo fan and I love fantasy, slice of life, and horror stuff (although good horror anime are so rare to find). Beyond anime I really like watching Youtube, Indie Animations, Western Cartoons and I love playing TTRPGs and drawing."
+      ],
+      "contact": [
+        {
+          "title": "Email",
+          "handle": "bkgao@ucsd.edu",
+          "url": "mailto:bkgao@ucsd.edu"
+        },
+        {
+          "title": "Discord",
+          "handle": "ChibiBrain#6180"
+        }
+      ]
+    },
+    {
+      "image": "images/officer_images/maomao.jpg",
+      "name": "Jasmine Macy",
+      "description": [
+        "Heiyo, I'm Jasmine. I'm a Junior currently majoring in Global Health. Within the club itself, I'm responsible for meeting minutes and planning our GBM events. I'm also in charge of CAB's graphic design, having designed various flyers and the like.", "I tend to love watching anime with interesting visuals and animation, especially from directors like Masaaki Yuasa and Hiroyuki Imaishi. Admittedly I'm more of a manga reader, and some of my top favorites include Dr. Stone, Berserk, and Dungeon Meshi.","Additionally I'm a huge fan of video games, and I'll be more than happy to chat about Pokemon, Fire Emblem, Persona, and many other things.","I hope you'll have a wonderful experience with Cal Animage Beta! Feel free to contact any one of us officers for any comments and concerns ∠( ᐛ 」∠)＿"
+      ],
+      "contact": [
+        {
+          "title": "Email",
+          "handle": "mmacy@ucsd.edu",
+          "url": "mailto:mmacy@ucsd.edu"
+        },
+        {
+          "title": "Discord",
+          "handle": "maomao#3393"
+        },
+        {
+          "title": "MyAnimeList",
+          "handle": "icelemontea",
+          "url": "https://myanimelist.net/profile/icelemontea"
+        }
+      ]
+    },
+    {
+      "image": "images/officer_images/xenoleaf.png",
+      "name": "Justus Vang",
+      "description": [
+        "Yahallo! I’m Justus, currently a first year microbio major at 7th College! I watch anime on occasion, my favorite being Iroduku: The World in Colors. I do some gaming as well, mostly Genshin and various other gachas. Outside of that, I enjoy cooking, writing music, and swimming. With that out of the way, enjoy your stay in CAB!"
+      ],
+      "contact": [
+        {
+          "title": "Email",
+          "handle": "javang@ucsd.edu",
+          "url": "mailto:javang@ucsd.edu"
+        },
+        {
+          "title": "Discord",
+          "handle": "XenoLeaf#9345"
+        }
+      ]
+    },
+    {
+      "image": "images/officer_images/bite.png",
+      "name": "Kaitlyn Chan",
+      "description": [
+        "Hello! I'm Kaitlyn, though I also go by Kite (or Bite). I'm a data science major in Seventh. I enjoy watching hobby anime, most of which are card games."
+      ],
+      "contact": [
+        {
+          "title": "Email",
+          "handle": "k6chan@ucsd.edu",
+          "url": "mailto:k6chan@ucsd.edu"
+        },
+        {
+          "title": "AniList",
+          "handle": "Bite",
+          "url": "https://anilist.co/user/Bite"
+        }
+      ]
+    },
+    {
+      "image": "images/officer_images/nicelodeon.jpg",
+      "name": "Nicolas Rodriguez",
+      "description": [
+        "Hi there, my name is Nicolas but you can call me Nic. I am a political science major in Marshall college. As far as anime goes I like to watch pretty much anything and am always looking for suggestions if you have any. My favorites would probably be In/Spectre, JJK, Dororo, Rising of Shield Hero, and Kaguya-Sama. I also like to play lots of different kinds of games but I have been really into Apex if you ever need another person to play with. Besides those things I am a film buff, a runner, and someone who enjoys learning about different things, especially different cultures. I am also in the process of learning Japanese so if you ever wanna study together let me know, I could definitely use it. Hope you enjoy your time in the club and have fun finding a community for you!"
+      ],
+      "contact": [
+        {
+          "title": "Email",
+          "handle": "njrodriguez@ucsd.edu",
+          "url": "mailto:njrodriguez@ucsd.edu"
+        },
+        {
+          "title": "Discord",
+          "handle": "Nicelodeon#4193"
+        }
+      ]
+    },
+    {
+      "image": "images/officer_images/ishigamicrisis.jpg",
+      "name": "Owen Guan",
+      "description": [
+        "I'm Owen, a 2nd year Bioengineer: Bioinformatics major in Sixth College. My favorite anime and manga is Kaguya-sama: Love is War and I like writing anime reviews for fun. Friend me on my MyAnimeList, IshigamiCrisis!"
+      ],
+      "contact": [
+        {
+          "title": "Discord",
+          "handle": "IshigamiCrisis#0545"
+        }
+      ]
+    },
+    {
+      "image": "images/officer_images/jaewoohoo.png",
+      "name": "Sosuke Kojima",
+      "description": [
+        "Konnichiwa, my name is Sosuke (pronounced like Sasuke but with an O), and I am a second year majoring in mechanical engineering. Being born and raised in Japan, I love it when animangas take inspiration from real locations in Japan, as it can feel nostalgic (especially Kyoto). Now to list the things I like: Rezero, Higurashi, Kaguyasama, Genshin, digital drawing, playing J-pop on piano, cycling and much more that I don't have the space to write."
+      ],
+      "contact": [
+        {
+          "title": "Email",
+          "handle": "skojima@ucsd.edu",
+          "url": "mailto:skojima@ucsd.edu"
+        },
+        {
+          "title": "Discord",
+          "handle": "Jaewoohoo#0990"
+        }
+      ]
+    }
+  ]
+}
