@@ -9,4 +9,6 @@ const MyImage = React.forwardRef(({ children, src, ...otherProps }, ref) => {
   )
 })
 
+MyImage.displayName = "MyImage"
+
 export default MyImage
