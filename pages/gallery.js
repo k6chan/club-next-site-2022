@@ -68,7 +68,7 @@ export default function Gallery() {
     // sort years
     const yearsSorted = Object.keys(GalleryData["gallery"]).sort((y1, y2) => y2.localeCompare(y1))
     return (
-        <div className="min-vh-100">
+        <>
             <PageHeader src="images/header_images/gallery_banner.png" className="mb-4">Gallery</PageHeader>
             <Container className="mb-4">
                 {yearsSorted.map((year, index) => (
@@ -84,6 +84,6 @@ export default function Gallery() {
                 ))}
                 {(currentItem != null) && <ModalContent item={currentItem} onHandleClose={handleItem}/>}
             </Container>
-        </div>
+        </>
     )
 }
