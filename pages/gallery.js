@@ -22,13 +22,13 @@ function Caption({item}) {
         return (
             <>
                 {item["credits"].map((credit, index) => (
-                    <p className="caption-size" key={index}>
+                    <span className="caption-size" key={index}>
                         {index <= 0 && item["description"] + " by "}
                         <CreatorLink credit={credit}/>
                         {index < item["credits"].length - 1 && item["credits"].length > 2 && ','}
                         {index < item["credits"].length - 1 && ' '}
                         {index === item["credits"].length - 2 && 'and '}
-                    </p>
+                    </span>
                 ))}
             </>
         )
