@@ -6,8 +6,7 @@
         "description": "Karaoke Key Art",
         "credit": [
           {
-            "creator": "maomao",
-            "url": "https://ucsd.moe/"
+            "creator": "maomao"
           }
         ]
       },
@@ -24,7 +23,7 @@
           },
           {
             "creator": "thwop",
-            "url": "https://ucsd.moe/"
+            "url": "https://thwop.carrd.co/"
           }
         ]
       },
@@ -34,7 +33,45 @@
         "credit": [
           {
             "creator": "thwop",
-            "url": "https://ucsd.moe/"
+            "url": "https://thwop.carrd.co/"
+          }
+        ]
+      }
+    ],
+    "2020-2021": [
+      {
+        "image": "images/gallery/2022_karaoke.png",
+        "description": "Karaoke Key Art",
+        "credit": [
+          {
+            "creator": "maomao"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_aflogo.svg",
+        "description": "Animefest 2022 Logo"
+      },
+      {
+        "image": "images/gallery/2022_aftriton.png",
+        "description": "AF22 Triton",
+        "credit": [
+          {
+            "creator": "temporary"
+          },
+          {
+            "creator": "thwop",
+            "url": "https://thwop.carrd.co/"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_afsungod.png",
+        "description": "AF22 Sungod",
+        "credit": [
+          {
+            "creator": "thwop",
+            "url": "https://thwop.carrd.co/"
           }
         ]
       }

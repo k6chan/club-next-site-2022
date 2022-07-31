@@ -47,17 +47,23 @@ export default function Gallery() {
     const [currentItem, setCurrentItem] = useState(null)
     const handleItem = () => setCurrentItem(null)
 
+    // sort years
+    const yearsSorted = Object.keys(GalleryData["gallery"]).sort((y1, y2) => y2.localeCompare(y1))
     return (
         <div className="min-vh-100">
             <PageHeader src="images/header_images/gallery_banner.png" className="mb-4">Gallery</PageHeader>
             <Container className="mb-4">
-                <p className="title-size title-font-condensed text-uppercase border-bottom">2021-2022</p>
-                <div className="d-inline-flex flex-wrap align-items-start mw-100">
-                    {GalleryData["gallery"]["2021-2022"].map((item, index) => (
-                        <ItemDisplay item={item} key={index} onHandleClose={handleItem}
-                                     setCurrentItem={setCurrentItem}/>
-                    ))}
-                </div>
+                {yearsSorted.map((year, index) => (
+                    <div key={index}>
+                        <p className="title-size title-font-condensed text-uppercase border-bottom">{year}</p>
+                        <div className="d-inline-flex flex-wrap align-items-start mw-100">
+                            {GalleryData["gallery"][year].map((item, index) => (
+                                <ItemDisplay item={item} key={index} onHandleClose={handleItem}
+                                             setCurrentItem={setCurrentItem}/>
+                            ))}
+                        </div>
+                    </div>
+                ))}
                 {(currentItem != null) && <ModalContent item={currentItem} onHandleClose={handleItem}/>}
             </Container>
         </div>
