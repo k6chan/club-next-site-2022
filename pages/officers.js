@@ -56,7 +56,7 @@ export default function Officers() {
                         {officers_sorted.map((officer, index) => (
                             <Link key={index} href={`#${encodeOfficer(officer["name"])}`} passHref>
                                 <MyImage src={officer["image"]}
-                                         className="col-6 col-sm-4 col-md-3 col-lg-2 p-2 officer-preview"/>
+                                         className="col-6 col-sm-4 col-md-3 col-lg-2 p-2 image-pointer"/>
                             </Link>
                         ))}
                     </div>

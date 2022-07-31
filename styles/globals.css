@@ -60,6 +60,6 @@ body {
   backdrop-filter: contrast(50%);
 }
 
-.officer-preview {
+.image-pointer {
   cursor: pointer;
 }
