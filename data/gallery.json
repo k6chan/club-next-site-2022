@@ -1,42 +1,43 @@
 {
-  "gallery": [
-    {
-      "2021-2022": [
-        {
-          "image": "images/gallery/2022_karaoke.png",
-          "name": "Karaoke Key Art",
-          "credit": [
-            {
-              "creator": "maomao",
-              "url": "https://ucsd.moe/"
-            }
-          ]
-        },
-        {
-          "image": "images/gallery/2022_aflogo.png",
-          "name": "Animefest 2022 Logo"
-        },
-        {
-          "image": "images/gallery/2022_aftriton.png",
-          "name": "AF22 Triton",
-          "credit": [
-            {
-              "creator": "thwop",
-              "url": "https://ucsd.moe/"
-            }
-          ]
-        },
-        {
-          "image": "images/gallery/2022_afsungod.png",
-          "name": "AF22 Sungod",
-          "credit": [
-            {
-              "creator": "thwop",
-              "url": "https://ucsd.moe/"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "gallery": {
+    "2021-2022": [
+      {
+        "image": "images/gallery/2022_karaoke.png",
+        "description": "Karaoke Key Art",
+        "credit": [
+          {
+            "creator": "maomao",
+            "url": "https://ucsd.moe/"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_aflogo.svg",
+        "description": "Animefest 2022 Logo"
+      },
+      {
+        "image": "images/gallery/2022_aftriton.png",
+        "description": "AF22 Triton",
+        "credit": [
+          {
+            "creator": "temporary"
+          },
+          {
+            "creator": "thwop",
+            "url": "https://ucsd.moe/"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_afsungod.png",
+        "description": "AF22 Sungod",
+        "credit": [
+          {
+            "creator": "thwop",
+            "url": "https://ucsd.moe/"
+          }
+        ]
+      }
+    ]
+  }
 }
