@@ -44,7 +44,7 @@ function Caption({item, ...otherProps}) {
 
 function ModalContent({item, onHandleClose}) {
     return (
-        <Modal show centered onHide={onHandleClose} size="lg">
+        <Modal show centered onHide={onHandleClose} size="lg" className="p-4">
             <MyImage src={item["image"]} alt={item["description"]} className="w-100"/>
             <Modal.Footer><Caption item={item}/></Modal.Footer>
         </Modal>
