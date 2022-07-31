@@ -2,15 +2,6 @@
   "gallery": {
     "2021-2022": [
       {
-        "image": "images/gallery/2022_karaoke.png",
-        "description": "Karaoke Promotional Art",
-        "credits": [
-          {
-            "creator": "maomao"
-          }
-        ]
-      },
-      {
         "image": "images/gallery/2022_padoru.png",
         "description": "Padoru Hina",
         "credits": [
@@ -20,28 +11,265 @@
         ]
       },
       {
-        "image": "images/gallery/2022_aflogo.svg",
-        "description": "Animefest 2022 Logo"
+        "image": "images/gallery/2022_karaoke.png",
+        "description": "Karaoke Promotional Art",
+        "credits": [
+          {
+            "creator": "maomao"
+          }
+        ]
       },
       {
-        "image": "images/gallery/2022_aftriton.png",
-        "description": "AF22 Triton",
+        "image": "images/gallery/2022_chibi.png",
+        "description": "Chibi Hina"
+      },
+      {
+        "image": "images/gallery/2022_aflogo.svg",
+        "description": "AF 2022 Logo",
         "credits": [
           {
             "creator": "thwop",
             "url": "https://thwop.carrd.co/"
+          },
+          {
+            "creator": "maomao"
           }
         ]
       },
       {
         "image": "images/gallery/2022_afsungod.png",
-        "description": "AF22 Sungod",
+        "description": "AF22 Hina",
+        "credits": [
+          {
+            "creator": "thwop",
+            "url": "https://thwop.carrd.co/"
+          },
+          {
+            "creator": "maomao"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_aftriton.png",
+        "description": "AF22 Kai",
+        "credits": [
+          {
+            "creator": "thwop",
+            "url": "https://thwop.carrd.co/"
+          },
+          {
+            "creator": "maomao"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_afsungod_ref.png",
+        "description": "AF22 Hina Character Reference",
         "credits": [
           {
             "creator": "thwop",
             "url": "https://thwop.carrd.co/"
           }
         ]
+      },
+      {
+        "image": "images/gallery/2022_aftriton_ref.png",
+        "description": "AF22 Kai Character Reference",
+        "credits": [
+          {
+            "creator": "thwop",
+            "url": "https://thwop.carrd.co/"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_tshirt.png",
+        "description": "2022 T-Shirt Design"
+      },
+      {
+        "image": "images/gallery/2022_aggiesu21.png",
+        "description": "Summer 2021 aggie.io"
+      },
+      {
+        "image": "images/gallery/2022_aggiesp22.png",
+        "description": "Spring 2022 aggie.io"
+      }
+    ],
+    "2020-2021": [
+      {
+        "image": "images/gallery/2021_aggiesu20.png",
+        "description": "Summer 2020 aggie.io"
+      },
+      {
+        "image": "images/gallery/2021_aggiefa20.png",
+        "description": "Fall 2020 aggie.io"
+      },
+      {
+        "image": "images/gallery/2021_aggiewi21.png",
+        "description": "Winter 2021 aggie.io"
+      },
+      {
+        "image": "images/gallery/2021_aggiesp21.png",
+        "description": "Spring 2021 aggie.io"
+      }
+    ],
+    "2019-2020": [
+      {
+        "image": "images/gallery/2020_afconcept.png",
+        "description": "AF20 Concept Art"
+      },
+      {
+        "image": "images/gallery/2020_tshirt.png",
+        "description": "2020 T-Shirt Design",
+        "credits": [
+          {
+            "creator": "maomao"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2020_afsungod.png",
+        "description": "AF20 Sungod"
+      },
+      {
+        "image": "images/gallery/2020_aflogo.png",
+        "description": "AF20 Logo"
+      },
+      {
+        "image": "images/gallery/2020_afsungodchibi.png",
+        "description": "AF20 Sungod Chibi"
+      },
+      {
+        "image": "images/gallery/2020_aftritonchibi.png",
+        "description": "AF20 Triton Chibi"
+      },
+      {
+        "image": "images/gallery/2020_aferror.png",
+        "description": "AF20 Error Message"
+      }
+    ],
+    "2018-2019": [
+      {
+        "image": "images/gallery/2019_afsungodattack.png",
+        "description": "AF19 Sungod"
+      },
+      {
+        "image": "images/gallery/2019_afsungod.png",
+        "description": "AF19 Sungod"
+      },
+      {
+        "image": "images/gallery/2019_aftritonattack.png",
+        "description": "AF19 Triton"
+      },
+      {
+        "image": "images/gallery/2019_aftriton.png",
+        "description": "AF19 Triton"
+      },
+      {
+        "image": "images/gallery/2019_getinvolved.png",
+        "description": "2018 Get Involved! Ad"
+      }
+    ],
+    "2017-2018": [
+      {
+        "image": "images/gallery/2018_sungodref.jpg",
+        "description": "Sungod Reference Sheet"
+      },
+      {
+        "image": "images/gallery/2018_tritonref.jpg",
+        "description": "Triton Reference Sheet"
+      },
+      {
+        "image": "images/gallery/2018_sungodchibi.png",
+        "description": "Sungod Chibi"
+      },
+      {
+        "image": "images/gallery/2018_sungod.png",
+        "description": "Sungod Website Art"
+      },
+      {
+        "image": "images/gallery/2018_triton.png",
+        "description": "Triton Website Art"
+      },
+      {
+        "image": "images/gallery/2018_afsungod.png",
+        "description": "AF18 Sungod"
+      },
+      {
+        "image": "images/gallery/2018_angel.jpg",
+        "description": "Angel Sungod"
+      },
+      {
+        "image": "images/gallery/2018_erc.png",
+        "description": "CAB Visual Novel - Eleanor Roosevelt College"
+      },
+      {
+        "image": "images/gallery/2018_marshall.png",
+        "description": "CAB Visual Novel - Marshall College"
+      },
+      {
+        "image": "images/gallery/2018_revelle.png",
+        "description": "CAB Visual Novel - Revelle College"
+      },
+      {
+        "image": "images/gallery/2018_warren.png",
+        "description": "CAB Visual Novel - Earl Warren College"
+      },
+      {
+        "image": "images/gallery/2018_muir.png",
+        "description": "CAB Visual Novel - Muir College"
+      },
+      {
+        "image": "images/gallery/2018_sixth.png",
+        "description": "CAB Visual Novel - Sixth College"
+      },
+      {
+        "image": "images/gallery/2018_sixthtour.png",
+        "description": "CAB Visual Novel - Sixth College (Tour Guide)"
+      },
+      {
+        "image": "images/gallery/2018_bearl.png",
+        "description": "CAB Visual Novel - Bearl"
+      },
+      {
+        "image": "images/gallery/2018_tshirtwhite.png",
+        "description": "2018 T-Shirt Design (White)"
+      },
+      {
+        "image": "images/gallery/2018_tshirtblue.png",
+        "description": "2018 T-Shirt Design (Dark Blue)"
+      }
+    ],
+    "2014-2015": [
+      {
+        "image": "images/gallery/2015_tritonchibi.png",
+        "description": "Triton Chibi"
+      },
+      {
+        "image": "images/gallery/2015_sungodchibi.png",
+        "description": "Sungod Chibi"
+      },
+      {
+        "image": "images/gallery/2015_triton.png",
+        "description": "Triton Fullbody"
+      },
+      {
+        "image": "images/gallery/2015_sungod.png",
+        "description": "Sungod Fullbody"
+      },
+      {
+        "image": "images/gallery/2015_sungodconcept.jpg",
+        "description": "Sungod Concept Art"
+      },
+      {
+        "image": "images/gallery/2015_tritonconcept.jpg",
+        "description": "Triton Concept Art"
+      }
+    ],
+    "1998-1999": [
+      {
+        "image": "images/gallery/1999_logo_upscale.jpg",
+        "description": "CAB Logo"
       }
     ]
   }
