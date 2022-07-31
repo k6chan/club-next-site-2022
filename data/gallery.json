@@ -3,7 +3,16 @@
     "2021-2022": [
       {
         "image": "images/gallery/2022_karaoke.png",
-        "description": "Karaoke Key Art",
+        "description": "Karaoke Promotional Art",
+        "credits": [
+          {
+            "creator": "maomao"
+          }
+        ]
+      },
+      {
+        "image": "images/gallery/2022_padoru.png",
+        "description": "Padoru Hina",
         "credits": [
           {
             "creator": "maomao"
