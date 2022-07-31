@@ -45,7 +45,7 @@ function OfficerDisplay({officer}) {
 
 export default function Officers() {
     // sort officers by name
-    const officers_sorted = OfficerData["officers"].sort((o1, o2) => o1["name"].localeCompare(o2["name"]))
+    const officersSorted = OfficerData["officers"].sort((o1, o2) => o1["name"].localeCompare(o2["name"]))
 
     return (
         <>
@@ -53,7 +53,7 @@ export default function Officers() {
             <Container className="mb-4">
                 <div className="border-bottom border-light mb-4">
                     <div className="d-inline-flex flex-wrap justify-content-center align-items-start mb-4">
-                        {officers_sorted.map((officer, index) => (
+                        {officersSorted.map((officer, index) => (
                             <Link key={index} href={`#${encodeOfficer(officer["name"])}`} passHref>
                                 <MyImage src={officer["image"]}
                                          className="col-6 col-sm-4 col-md-3 col-lg-2 p-2 image-pointer"/>
@@ -62,7 +62,7 @@ export default function Officers() {
                     </div>
                 </div>
                 <div className="d-grid gap-5">
-                    {officers_sorted.map((officer, index) => (
+                    {officersSorted.map((officer, index) => (
                         <OfficerDisplay officer={officer} key={index}/>
                     ))}
                 </div>
