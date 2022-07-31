@@ -17,12 +17,14 @@ function CreatorLink({credit}) {
     }
 }
 
-function Caption({item}) {
+function Caption({item, ...otherProps}) {
+    let {className, ...otherPropsWithoutClassName} = otherProps
+    let classes = "caption-size"
     if (item["credits"]) {
         return (
             <>
                 {item["credits"].map((credit, index) => (
-                    <span className="caption-size" key={index}>
+                    <span className={classes + " " + className} {...otherPropsWithoutClassName} key={index}>
                         {index <= 0 && item["description"] + " by "}
                         <CreatorLink credit={credit}/>
                         {index < item["credits"].length - 1 && item["credits"].length > 2 && ','}
@@ -54,7 +56,7 @@ function ItemDisplay({item, setCurrentItem}) {
         <div className="col-6 col-sm-4 col-md-3 col-lg-2 p-2 d-inline-flex flex-column">
             <MyImage src={item["image"]} alt={item["description"]} className="image-pointer p-1"
                      onClick={() => setCurrentItem(item)}/>
-            <Caption item={item}/>
+            <Caption item={item} className="align-self-center"/>
         </div>
     )
 }
@@ -70,7 +72,7 @@ export default function Gallery() {
             <PageHeader src="images/header_images/gallery_banner.png" className="mb-4">Gallery</PageHeader>
             <Container className="mb-4">
                 {yearsSorted.map((year, index) => (
-                    <div key={index}>
+                    <div key={index} className="mb-4">
                         <p className="title-size title-font-condensed text-uppercase border-bottom">{year}</p>
                         <div className="d-inline-flex flex-wrap align-items-start mw-100">
                             {GalleryData["gallery"][year].map((item, index) => (
