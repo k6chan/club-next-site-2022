@@ -5,28 +5,44 @@ import {useState} from "react"
 import GalleryData from "../data/gallery.json"
 
 
-function Caption({item}) {
-    if (item["credit"]) {
-        if (item["credit"][0]["url"]) {
-            return (
-                <p className="caption-size text-center">{item["description"]} by <a
-                    href={item["credit"][0]["url"]}>{item["credit"][0]["creator"]}</a></p>
-            )
-        } else {
-            return (
-                <p className="caption-size text-center">{item["description"]} by {item["credit"][0]["creator"]}</p>
-            )
-        }
+function CreatorLink({credit}) {
+    if (credit["url"]) {
+        return (
+            <a href={credit["url"]}>{credit["creator"]}</a>
+        )
     } else {
         return (
-            <p className="caption-size text-center">{item["description"]}</p>
+            <>{credit["creator"]}</>
+        )
+    }
+}
+
+function Caption({item}) {
+    if (item["credits"]) {
+        return (
+            <>
+                {item["credits"].map((credit, index) => (
+                    <p className="caption-size" key={index}>
+                        {index <= 0 && item["description"] + " by "}
+                        <CreatorLink credit={credit}/>
+                        {index < item["credits"].length - 1 && item["credits"].length > 2 && ','}
+                        {index < item["credits"].length - 1 && ' '}
+                        {index === item["credits"].length - 2 && 'and '}
+                    </p>
+                ))}
+            </>
+        )
+    }
+    else {
+        return (
+            <span className="caption-size text-center">{item["description"]}</span>
         )
     }
 }
 
 function ModalContent({item, onHandleClose}) {
     return (
-        <Modal show onHide={onHandleClose} size="lg">
+        <Modal show centered onHide={onHandleClose} size="lg">
             <MyImage src={item["image"]} alt={item["description"]} className="w-100"/>
             <Modal.Footer><Caption item={item}/></Modal.Footer>
         </Modal>
