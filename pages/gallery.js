@@ -1,7 +1,7 @@
 import {Container, Modal} from "react-bootstrap"
 import PageHeader from "../components/pageheader"
 import MyImage from "../components/myimage"
-import {useState} from "react"
+import {Fragment, useState} from "react"
 import GalleryData from "../data/gallery.json"
 
 
@@ -19,25 +19,27 @@ function CreatorLink({credit}) {
 
 function Caption({item, ...otherProps}) {
     let {className, ...otherPropsWithoutClassName} = otherProps
-    let classes = "caption-size text-center"
+    let classes = "caption-size text-center text-break"
     if (item["credits"]) {
         return (
             <>
+                <span className={classes + " " + className} {...otherPropsWithoutClassName}>
                 {item["credits"].map((credit, index) => (
-                    <span className={classes + " " + className} {...otherPropsWithoutClassName} key={index}>
+                    <Fragment key={index}>
                         {index <= 0 && item["description"] + " by "}
                         <CreatorLink credit={credit}/>
                         {index < item["credits"].length - 1 && item["credits"].length > 2 && ','}
                         {index < item["credits"].length - 1 && ' '}
                         {index === item["credits"].length - 2 && 'and '}
-                    </span>
+                    </Fragment>
                 ))}
+                </span>
             </>
         )
     }
     else {
         return (
-            <span className="caption-size text-center">{item["description"]}</span>
+            <span className={classes + " " + className} {...otherPropsWithoutClassName}>{item["description"]}</span>
         )
     }
 }
@@ -56,7 +58,7 @@ function ItemDisplay({item, setCurrentItem}) {
         <div className="col-6 col-sm-4 col-md-3 col-lg-2 p-2 d-inline-flex flex-column">
             <MyImage src={item["thumbnail"]} alt={item["description"]} className="image-pointer p-1"
                      onClick={() => setCurrentItem(item)}/>
-            <Caption item={item} className="align-self-center"/>
+            <Caption item={item}/>
         </div>
     )
 }
