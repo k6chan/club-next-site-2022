@@ -56,7 +56,7 @@ function ModalContent({item, onHandleClose}) {
 function ItemDisplay({item, setCurrentItem}) {
     return (
         <div className="col-6 col-sm-4 col-md-3 col-lg-2 p-2 d-inline-flex flex-column">
-            <MyImage src={item["thumbnail"]} alt={item["description"]} className="image-pointer p-1"
+            <MyImage src={item["thumbnail"]} alt={item["description"]} className="image-pointer p-1 mw-100"
                      onClick={() => setCurrentItem(item)}/>
             <Caption item={item}/>
         </div>
