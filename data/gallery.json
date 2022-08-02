@@ -93,7 +93,12 @@
       {
         "image": "images/gallery/2022_tshirt.png",
         "thumbnail": "images/gallery/thumbnail/2022_tshirt_thumbnail.png",
-        "description": "2022 T-Shirt Design"
+        "description": "2022 T-Shirt Design",
+        "credits": [
+          {
+            "creator": "khuwun"
+          }
+        ]
       },
       {
         "image": "images/gallery/2022_aggiesu21.png",
