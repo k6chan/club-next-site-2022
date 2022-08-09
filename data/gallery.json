@@ -179,22 +179,46 @@
       {
         "image": "images/gallery/2019_afsungodattack.png",
         "thumbnail": "images/gallery/thumbnail/2019_afsungodattack_thumbnail.png",
-        "description": "AF19 Sungod"
+        "description": "AF19 Sungod",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2019_afsungod.png",
         "thumbnail": "images/gallery/thumbnail/2019_afsungod_thumbnail.png",
-        "description": "AF19 Sungod"
+        "description": "AF19 Sungod",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2019_aftritonattack.png",
         "thumbnail": "images/gallery/thumbnail/2019_aftritonattack_thumbnail.png",
-        "description": "AF19 Triton"
+        "description": "AF19 Triton",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2019_aftriton.png",
         "thumbnail": "images/gallery/thumbnail/2019_aftriton_thumbnail.png",
-        "description": "AF19 Triton"
+        "description": "AF19 Triton",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2019_getinvolved.png",
@@ -206,12 +230,24 @@
       {
         "image": "images/gallery/2018_sungodref.jpg",
         "thumbnail": "images/gallery/thumbnail/2018_sungodref_thumbnail.png",
-        "description": "Sungod Reference Sheet"
+        "description": "Sungod Reference Sheet",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_tritonref.jpg",
         "thumbnail": "images/gallery/thumbnail/2018_tritonref_thumbnail.png",
-        "description": "Triton Reference Sheet"
+        "description": "Triton Reference Sheet",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_sungodchibi.png",
@@ -293,32 +329,68 @@
       {
         "image": "images/gallery/2015_tritonchibi.png",
         "thumbnail": "images/gallery/thumbnail/2015_tritonchibi_thumbnail.png",
-        "description": "Triton Chibi"
+        "description": "Triton Chibi",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2015_sungodchibi.png",
         "thumbnail": "images/gallery/thumbnail/2015_sungodchibi_thumbnail.png",
-        "description": "Sungod Chibi"
+        "description": "Sungod Chibi",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2015_triton.png",
         "thumbnail": "images/gallery/thumbnail/2015_triton_thumbnail.png",
-        "description": "Triton Fullbody"
+        "description": "Triton Fullbody",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2015_sungod.png",
         "thumbnail": "images/gallery/thumbnail/2015_sungod_thumbnail.png",
-        "description": "Sungod Fullbody"
+        "description": "Sungod Fullbody",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2015_sungodconcept.jpg",
         "thumbnail": "images/gallery/thumbnail/2015_sungodconcept_thumbnail.png",
-        "description": "Sungod Concept Art"
+        "description": "Sungod Concept Art",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       },
       {
         "image": "images/gallery/2015_tritonconcept.jpg",
         "thumbnail": "images/gallery/thumbnail/2015_tritonconcept_thumbnail.png",
-        "description": "Triton Concept Art"
+        "description": "Triton Concept Art",
+        "credits": [
+          {
+            "creator": "ofishenod (Alexie)",
+            "url": "https://twitter.com/ofishenod?s=21"
+          }
+        ]
       }
     ],
     "1998-1999": [
