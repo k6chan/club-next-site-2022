@@ -96,7 +96,8 @@
         "description": "2022 T-Shirt Design",
         "credits": [
           {
-            "creator": "khuwun"
+            "creator": "khuwun",
+            "url": "https://khuwun.carrd.co/"
           }
         ]
       },
@@ -137,7 +138,13 @@
       {
         "image": "images/gallery/2020_afconcept.png",
         "thumbnail": "images/gallery/thumbnail/2020_afconcept_thumbnail.png",
-        "description": "AF20 Concept Art"
+        "description": "AF20 Concept Art",
+        "credits": [
+          {
+            "creator": "Aelgis",
+            "url": "https://www.instagram.com/aelgis/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2020_tshirt.png",
@@ -162,12 +169,24 @@
       {
         "image": "images/gallery/2020_afsungodchibi.png",
         "thumbnail": "images/gallery/thumbnail/2020_afsungodchibi_thumbnail.png",
-        "description": "AF20 Sungod Chibi"
+        "description": "AF20 Sungod Chibi",
+        "credits": [
+          {
+            "creator": "Aelgis",
+            "url": "https://www.instagram.com/aelgis/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2020_aftritonchibi.png",
         "thumbnail": "images/gallery/thumbnail/2020_aftritonchibi_thumbnail.png",
-        "description": "AF20 Triton Chibi"
+        "description": "AF20 Triton Chibi",
+        "credits": [
+          {
+            "creator": "Aelgis",
+            "url": "https://www.instagram.com/aelgis/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2020_aferror.png",
@@ -223,7 +242,13 @@
       {
         "image": "images/gallery/2019_getinvolved.png",
         "thumbnail": "images/gallery/thumbnail/2019_getinvolved_thumbnail.png",
-        "description": "2018 Get Involved! Ad"
+        "description": "2018 Get Involved! Ad",
+        "credits": [
+          {
+            "creator": "Jamie",
+            "url": "https://twitter.com/cloewn"
+          }
+        ]
       }
     ],
     "2017-2018": [
@@ -252,47 +277,97 @@
       {
         "image": "images/gallery/2018_sungodchibi.png",
         "thumbnail": "images/gallery/thumbnail/2018_sungodchibi_thumbnail.png",
-        "description": "Sungod Chibi"
+        "description": "Sungod Chibi",
+        "credits": [
+          {
+            "creator": "izatato",
+            "url": "https://www.instagram.com/izacreativepotato/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_sungod.png",
         "thumbnail": "images/gallery/thumbnail/2018_sungod_thumbnail.png",
-        "description": "Sungod Website Art"
+        "description": "Sungod Website Art",
+        "credits": [
+          {
+            "creator": "izatato",
+            "url": "https://www.instagram.com/izacreativepotato/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_triton.png",
         "thumbnail": "images/gallery/thumbnail/2018_triton_thumbnail.png",
-        "description": "Triton Website Art"
+        "description": "Triton Website Art",
+        "credits": [
+          {
+            "creator": "izatato",
+            "url": "https://www.instagram.com/izacreativepotato/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_afsungod.png",
         "thumbnail": "images/gallery/thumbnail/2018_afsungod_thumbnail.png",
-        "description": "AF18 Sungod"
+        "description": "AF18 Sungod",
+        "credits": [
+          {
+            "creator": "izatato",
+            "url": "https://www.instagram.com/izacreativepotato/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_angel.jpg",
         "thumbnail": "images/gallery/thumbnail/2018_angel_thumbnail.png",
-        "description": "Angel Sungod"
+        "description": "Angel Sungod",
+        "credits": [
+          {
+            "creator": "izatato",
+            "url": "https://www.instagram.com/izacreativepotato/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_erc.png",
         "thumbnail": "images/gallery/thumbnail/2018_erc_thumbnail.png",
-        "description": "CAB Visual Novel - Eleanor Roosevelt College"
+        "description": "CAB Visual Novel - Eleanor Roosevelt College",
+        "credits": [
+          {
+            "creator": "erin"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_marshall.png",
         "thumbnail": "images/gallery/thumbnail/2018_marshall_thumbnail.png",
-        "description": "CAB Visual Novel - Marshall College"
+        "description": "CAB Visual Novel - Marshall College",
+        "credits": [
+          {
+            "creator": "erin"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_revelle.png",
         "thumbnail": "images/gallery/thumbnail/2018_revelle_thumbnail.png",
-        "description": "CAB Visual Novel - Revelle College"
+        "description": "CAB Visual Novel - Revelle College",
+        "credits": [
+          {
+            "creator": "erin"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_warren.png",
         "thumbnail": "images/gallery/thumbnail/2018_warren_thumbnail.png",
-        "description": "CAB Visual Novel - Earl Warren College"
+        "description": "CAB Visual Novel - Earl Warren College",
+        "credits": [
+          {
+            "creator": "erin"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_muir.png",
@@ -302,12 +377,22 @@
       {
         "image": "images/gallery/2018_sixth.png",
         "thumbnail": "images/gallery/thumbnail/2018_sixth_thumbnail.png",
-        "description": "CAB Visual Novel - Sixth College"
+        "description": "CAB Visual Novel - Sixth College",
+        "credits": [
+          {
+            "creator": "Jessie"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_sixthtour.png",
         "thumbnail": "images/gallery/thumbnail/2018_sixthtour_thumbnail.png",
-        "description": "CAB Visual Novel - Sixth College (Tour Guide)"
+        "description": "CAB Visual Novel - Sixth College (Tour Guide)",
+        "credits": [
+          {
+            "creator": "Jessie"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_bearl.png",
@@ -317,7 +402,13 @@
       {
         "image": "images/gallery/2018_tshirtwhite.png",
         "thumbnail": "images/gallery/thumbnail/2018_tshirtwhite_thumbnail.png",
-        "description": "2018 T-Shirt Design (White)"
+        "description": "2018 T-Shirt Design (White)",
+        "credits": [
+          {
+            "creator": "izatato",
+            "url": "https://www.instagram.com/izacreativepotato/"
+          }
+        ]
       },
       {
         "image": "images/gallery/2018_tshirtblue.png",
