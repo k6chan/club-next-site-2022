@@ -18,7 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the pages by modifying the pages in the `pages` folder. Pages auto-update as you save the file ("hot reloading").
 
-
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
