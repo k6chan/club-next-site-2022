@@ -171,4 +171,4 @@ A record that contains the domain name. GitHub Actions copies this file into its
 
 ## Credits
 
-Original 2022-2023 website programmed by Kaitlyn Chan; designed by Jasmine Macy and Kaitlyn Chan.
+Original 2022 website programmed by Kaitlyn Chan and was designed by Jasmine Macy and Kaitlyn Chan.
