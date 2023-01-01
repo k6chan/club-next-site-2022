@@ -162,8 +162,7 @@ importing Bootstrap.
 
 ### next.config.js
 
-Mainly used to adjust the basePath when the website is served on a subdomain (
-i.e. [ucsdanimeclub.github.io/club-next-site/](https://k6chan.github.io/club-next-site-2022/)) instead
+Mainly used to adjust the basePath when the website is served on a subdomain (i.e. [ucsdanimeclub.github.io/club-next-site/](https://k6chan.github.io/club-next-site-2022/)) instead
 of [ucsd.moe](https://k6chan.github.io/club-next-site-2022/).
 
 ### CNAME
